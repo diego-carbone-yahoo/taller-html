@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>El camino del desarrollador UI - Paso 1: Html</title>
+	<link rel="stylesheet" href="assets/estilos.css">
+	<link rel="stylesheet" href="assets/tarea.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo-ninja.png" alt="logo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="http://op1.html">Opcion1</a>
+                </li>
+                <li>
+                    <a href="http://op2.html">Opcion2</a>
+                </li>
+                <li>
+                    <a href="http://op3.html">Opcion3</a>
+                </li>
+                <li>
+                    <a href="http://op4.html">Opcion4</a>
+                </li>         
+                <li>
+                    <a href="http://op5.html">Opcion5</a>
+                </li>                         
+            </ul>
+
+            <form action="buscar.do" >
+                <input type="text" name="searchText" id="searchText"/>
+                <input type="submit" name="search" id="search"/>
+            </form>            
+        </nav>
+        
+    </header>
+                
+
+
+    <main>
+        <h1>La importancia del html semantico</h1>
+        <section>
+            <h2>Position</h2>
+            <ul>
+				<li>Caja 1</li>
+				<li>Caja 2</li>
+				<li>Caja 3</li>
+			</ul>
+        </section>
+
+        <section>
+            <img src="assets/muestra1.png" alt="">                            
+        </section>
+    
+    </main>
+
+    <aside>
+        <h2>Siguientes pasos en el camino Ninja UI</h2>
+        <ul>
+            <li>CSS</li>
+            <li>Prepro</li>
+            <li>Javascript</li>
+            <li>Frameworks</li>
+            <li>Web-components</li>
+        </ul>
+
+        <h3>Quiero seguir el camino del desarrollador UI!</h3>
+        <form action="guardar.do">
+
+            <label for="nombre">Nombre (*)</label>
+            <input type="text" name="nombre" id="nombre"/>        
+            <label for="email">Email (*)</label>
+            <input type="text" name="email" id="email"/>        
+
+
+            <legend>¿Ya diste el primer paso?</legend>
+            <fieldset>
+                <input type="radio" name="paso" id="pasoSi"/>
+                <label for="pasoSi">Si</label>
+                <input type="radio" name="paso" id="pasoNo"/>        
+                <label for="pasoNo">No</label>                        
+            </fieldset>
+            
+            <input type="checkbox" name="acepto" id="acepto"/>
+            <label for="acepto">Acepto terminos y condiciones del camino Ninja UI</label>  
+                      
+
+            <label for="masInfo">Quiero mas info!</label>
+            <input type="submit" id="masInfo"/>
+        </form>
+
+    </aside>
+
+    <footer>
+        <img src="ninja-ui-footer.png" alt="">
+        <p>
+            <div>Av. Cordoba 111, Ciudad autonoma de Buenos Aires.</div>
+            <div>*54 11 3448-0000 - hola@ninja-ui.com</div>
+            <div>C 2018 - Todos los derechos reservados</div>
+        </p>
+    
+    </footer>
+
+    <script src="assets/f.js"></script>
+</body>
+</html>

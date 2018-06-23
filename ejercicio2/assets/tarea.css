@@ -1,0 +1,16 @@
+section a {
+	/*
+	display: block;
+	width: 21%;
+	margin: 2%;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+	/**/
+}
+
+section:first-of-type h2 {
+	/*
+	clear: both;
+	/**/
+}

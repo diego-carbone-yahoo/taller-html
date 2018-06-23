@@ -282,3 +282,29 @@ section p:last-child, article p:last-child {
     margin: 0 auto;
     position: relative;
 }
+
+
+/* Taller CSS Todo Practico - display */
+
+/* Predefinido */
+
+main section img {
+	width: 100%;
+}
+
+section a {
+	border: 1px solid #ccc;
+	background: white;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+
+section a img {
+	max-width: 100px;
+}
+
+section:first-of-type h2 {
+	padding-top: 30px;
+}

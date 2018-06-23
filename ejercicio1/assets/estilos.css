@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,900');
+
+* {
+    margin: 0;
+    padding-top: 0;
+}
+
+aside {
+    width: 25%;
+    margin-left: 5%;
+    display: inline-block;
+    background-color: rgba(186, 168, 152, 1);
+    border-radius: 0px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+aside form {
+    position: relative;
+}
+
+aside form fieldset {
+    border: none;
+    padding: 0;
+}
+
+aside form fieldset legend {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+aside form fieldset label {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 23px;
+    position: relative;
+}
+
+aside form fieldset label:before {
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(238, 224, 203, 1);
+    content: "";
+    left: -23px;
+    z-index: 1;
+}
+
+aside form fieldset input[type="radio"]:checked + label:after {
+    position: absolute;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color:rgba(131, 151, 136, 1);
+    content: "";
+    left: -19px;
+    top: 4px;
+    z-index: 2;
+}
+
+aside form fieldset input {
+    display: none;
+}
+
+aside form input[type="checkbox"] {
+    display: none;
+}
+
+aside form input[type="checkbox"] + label {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+aside form input[type="checkbox"] + label:before {
+    position: absolute;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(238, 224, 203, 1);
+    content: "";
+    left: 0px;
+    margin-top: 2px;
+    z-index: 1;
+}
+
+aside form input[type="checkbox"]:checked + label:after {
+    position: absolute;
+    border-radius: 2px;
+    width: 9px;
+    height: 9px;
+    background-color:rgba(131, 151, 136, 1);
+    content: "";
+    left: 3px;
+    margin-top:-10px;
+    z-index: 2;
+}
+
+aside form input[type="text"] {
+    margin-bottom: 15px;
+    border: none;
+    background-color: rgba(238, 224, 203, 1);
+    padding: 3px 8px;
+    width: 90%;
+}
+
+aside form input[type="submit"] {
+    display: block;
+    background-color: rgba(131, 151, 136, 1);
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+}
+
+aside form label {
+    display: block;
+    font-size: 13px;
+}
+
+aside h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+aside h3 {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    background-color: rgba(131, 151, 136, 0.5);
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(131, 151, 136, 1);
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+header > a, header > img {
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+header nav form {
+    display: inline-block;
+}
+
+header nav form input[type="text"] {
+    background-color: rgba(238, 224, 203, 1);
+    border: none;
+    padding: 3px 8px;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+header nav form input[type="submit"], header nav form button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    padding: 3px 8px;
+    background-image: url("../assets/im-32.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 32px;
+    background-size: contain;
+}
+
+header nav form label {
+    display: none;
+}
+
+header nav ul {
+    display: inline-block;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    display: inline-block;
+    padding: 15px 5px;
+}
+
+header nav ul li a:after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    transition: all .2s ease-in;
+}
+
+header nav ul li a:hover:after {
+    width: 65px;
+}
+
+footer {
+    padding: 60px 20px 40px;
+    color: #333;
+    background-color: rgba(186, 168, 152, 1);
+    margin-top: 30px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer img {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 5px 0px;
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+    background-color: #fff;
+    background-color: rgba(238, 224, 203, 1);
+    border-radius: 0px;
+    padding: 30px 35px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+section, article {
+    box-shadow: 3px 3px 10px #aaa;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 30px 0px;
+    padding: 25px;
+    background-color: #fff;
+}
+
+section h2, section h3, article h2, article h3  {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section p, article p {
+    margin-bottom: 15px;
+}
+
+section p:last-child, article p:last-child {
+    margin-bottom: 0px;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* Taller CSS Todo Practico - posicionamiento */
+
+/* Predefinido */
+
+main section img {
+	width: 100%;
+}
+
+main section:first-of-type li {
+	list-style:  none;
+}
+
+main section li:first-of-type {
+	background: red;
+}
+
+main section li:last-of-type {
+	background: green;
+}
+
+main section li:nth-of-type(2) {
+	background: blue;
+}
